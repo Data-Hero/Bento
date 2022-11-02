@@ -22,11 +22,7 @@ setPosition(); setInterval(function() {
  }, 3600000) 
 
 setInterval(function() {
-	if (sessionStorage.getItem("darkTheme") === "enabled") {
-		displayWeather(true);		
-	} else {
-		displayWeather(false);
-	}
+	displayWeather(sessionStorage.getItem("darkTheme") === "enabled");		
 }, 500)
 
 window.onstorage = () => {
