@@ -241,6 +241,3 @@ that you can change in the `config.js` file:
   hourDarkThemeActive: '18:30', // Turn on the dark theme after this hour
   hourDarkThemeInactive: '07:00', // Turn off the dark theme after this hour and before the above hour
 ```
-
-### Credit
-This used to be a fork of the [original Bento](https://github.com/migueravila/Bento) that now lives in it's own repository.
